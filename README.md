@@ -23,7 +23,7 @@ Most of the code is based on the [Author-verified Pytorch Reimplementation of Le
 - [x] Training code
 - [ ] Axial motion magnification quantitative experiment code
 - [ ] Traditional motion magnification quantitative experiment code
-- [ ] Physically accurate experiment code
+- [ ] Code for the experiment measuring physical accuracy of motion magnification methods
 
 ## Getting started
 This code was developed on Ubuntu 18.04 with Python 3.7.6, CUDA 11.1 and PyTorch 1.8.0, using two NVIDIA TITAN RTX (24GB) GPUs. 
@@ -96,7 +96,7 @@ If you find our code or paper helps, please consider citing:
 ````BibTeX
 @inproceedings{byung2023learning,
   title = {Learning-based Axial Motion Magnification},
-  author = {Byung-Ki, Kwon and Hyun-Bin, Oh and Jun-Seong, Kim and Oh, Tae-Hyun},
+  author={Kwon Byung-Ki and Oh Hyun-Bin and Kim Jun-Seong and Hyunwoo Ha and Tae-Hyun Oh},
   booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2024}
 }
