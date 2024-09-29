@@ -1,3 +1,0 @@
-python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/axial_mm.tar"  --vid_dir="/home/kwon/Conference/ECCV2024_axial/datasets/baby" --alpha_x 20 --alpha_y 20 --theta 0 --fs 30 --freq 0.04 0.4 --filter_type differenceOfIIR 
-python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/axial_mm.tar"  --vid_dir="/home/kwon/Conference/ECCV2024_axial/datasets/baby" --alpha_x 20 --alpha_y 20 --theta 0 --fs 30 --freq 0.04 0.4 --filter_type butter 
-python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/axial_mm.tar"  --vid_dir="/home/kwon/Conference/ECCV2024_axial/datasets/baby" --alpha_x 20 --alpha_y 20 --theta 0 --fs 120 --freq 1 2 --filter_type fir 
