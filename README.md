@@ -56,7 +56,7 @@ In "Without a temporal filter", the static mode amplifies small motion based on 
 
 With a temporal filter, amplification is applied by utilizing the temporal filter. This method effectively amplifies small motions of specific frequencies while reducing noise that may arise in the motion magnification results.
 
-**We highly recommend using a temporal filter for real videos, as they are likely to contain the photometric noise.** 
+🌟 **We highly recommend using a temporal filter for real videos, as they are likely to contain the photometric noise.** 
 
     
 ### For the inference without a temporal filter
@@ -67,9 +67,9 @@ With a temporal filter, amplification is applied by utilizing the temporal filte
 
         python main_dp.py --checkpoint_path "./model/axial_mm.tar" --phase="play" --vid_dir="Path of the video frames" --alpha_x 10 --alpha_y 0 --theta 0 --is_single_gpu_trained   
 
-**The amplification levels for the x and y axes can be adjusted by setting <theta> to 0 and modifying <alpha_x> and <alpha_y>. If you want to amplify only one axis, set either <alpha_x> or <alpha_y> to 0** 
+🌟 **The amplification levels for the x and y axes can be adjusted by setting <theta> to 0 and modifying <alpha_x> and <alpha_y>. If you want to amplify only one axis, set either <alpha_x> or <alpha_y> to 0** 
 
-**If you want to amplify at an arbitrary angle, such as 45 degrees, set one of <alpha_x> or <alpha_y> to 0 and input a value for <theta> between 0 and 90 degrees.** 
+🌟 **If you want to amplify at an arbitrary angle, such as 45 degrees, set one of <alpha_x> or <alpha_y> to 0 and input a value for <theta> between 0 and 90 degrees.** 
 
 ### For the inference with a temporal filter
 
@@ -78,9 +78,9 @@ With a temporal filter, amplification is applied by utilizing the temporal filte
        python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/axial_mm.tar"  --vid_dir="Path of the video frames" --alpha_x 0 --alpha_y 10 --theta 0 --fs 120 --freq 15 25 --filter_type fir 
        python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/axial_mm.tar"  --vid_dir="Path of the video frames" --alpha_x 0 --alpha_y 10 --theta 0 --fs 120 --freq 0.04 0.4 --filter_type differenceOfIIR 
 
-**When applying a temporal filter, it is crucial to accurately specify the frame rate <fs> and the frequency band <freq> to ensure optimal performance and effectiveness.** 
+🌟 **When applying a temporal filter, it is crucial to accurately specify the frame rate <fs> and the frequency band <freq> to ensure optimal performance and effectiveness.** 
 
-**If you want to amplify at an arbitrary angle, such as 45 degrees, set one of <alpha_x> or <alpha_y> to 0 and input a value for <theta> between 0 and 90 degrees.** 
+🌟 **If you want to amplify at an arbitrary angle, such as 45 degrees, set one of <alpha_x> or <alpha_y> to 0 and input a value for <theta> between 0 and 90 degrees.** 
 
 ## Citation
 If you find our code or paper helps, please consider citing:
