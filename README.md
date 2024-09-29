@@ -14,7 +14,7 @@ Most of the code is based on the [Author-verified Pytorch Reimplementation of Le
 
 🌟 We've added the directional information to motion magnification, which is crucial for applications like fault detection in rotating machinery and building structure health monitoring.
 
-🌟 We've provided [evaluation datasets](https://arxiv.org/abs/2312.09551) for both axial motion magnification and traditional motion magnification. The provided datasets allow for quantitative results of various motion magnification methods.
+🌟 We've provided [evaluation datasets](https://arxiv.org/abs/2312.09551) for both axial motion magnification and traditional motion magnification. The provided datasets allow for quantitative comparisons between various motion magnification methods.
 
 
 ## 💪To-Do List
