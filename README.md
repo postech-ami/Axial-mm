@@ -1,5 +1,5 @@
 # Learning-based Axial Video Motion Magnification (ECCV 2024)
-### [Project Page](https://axial-momag.github.io/axial-momag/) | [Paper](https://arxiv.org/abs/2312.09551)  | [Dataset](https://drive.google.com/drive/folders/1jB2aCfOlQGgAVAzv9lsMDfWlzEIHbYy0)
+### [Project Page](https://axial-momag.github.io/axial-momag/) | [Paper](https://arxiv.org/abs/2312.09551)  |  [Dataset](https://drive.google.com/drive/folders/1jB2aCfOlQGgAVAzv9lsMDfWlzEIHbYy0)  |  [YouTube](https://www.youtube.com/watch?v=rirtanavs34&t=235s)
 This repository contains the official implementation of the ECCV 2024 paper, "Learning-based Axial Video Motion Magnification".
 
 ## Acknowledgement
