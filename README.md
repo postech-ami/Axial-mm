@@ -103,4 +103,4 @@ If you find our code or paper helps, please consider citing:
 ````
 
 ## Contact
-[Kwon Byung-Ki](https://sites.google.com/d/1_vNQqcB8irFCGLrXgQ___xkpssz4TZ0O/p/1Sxd4GHllVhHgATVMsK9Onf_3Qlo8HgTj/edit) (byungki.kwon@postech.ac.kr)
+[Kwon Byung-Ki](https://sites.google.com/view/kwon-byung--ki/%ED%99%88) (byungki.kwon@postech.ac.kr)
