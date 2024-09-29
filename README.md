@@ -16,6 +16,15 @@ Most of the code is based on the [Author-verified Pytorch Reimplementation of Le
 
 🌟 We've provided [evaluation datasets](https://arxiv.org/abs/2312.09551) for both axial motion magnification and traditional motion magnification. The provided datasets allow for quantitative results of various motion magnification methods.
 
+
+## 💪To-Do List
+
+- [x] Inference code
+- [x] Training code
+- [] Axial motion magnification quantitative experiment code
+- [] Traditional motion magnification quantitative experiment code
+- [] Physically accurate experiment code
+
 ## Getting started
 This code was developed on Ubuntu 18.04 with Python 3.7.6, CUDA 11.1 and PyTorch 1.8.0, using two NVIDIA TITAN RTX (24GB) GPUs. 
 Later versions should work, but have not been tested.
