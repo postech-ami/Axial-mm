@@ -78,7 +78,7 @@ With a temporal filter, amplification is applied by utilizing the temporal filte
 
 🌟 **The amplification levels for the x and y axes can be adjusted by setting theta to 0 and modifying <alpha_x> and <alpha_y>. If you want to amplify only one axis, set either <alpha_x> or <alpha_y> to 0** 
 
-🌟 **If you want to amplify at an arbitrary angle, such as 45 degrees, set one of <alpha_x> or <alpha_y> to 0 and input a value for <theta> between 0 and 90 degrees.** 
+🌟 **If you want to amplify at an arbitrary angle, such as 45 degrees, set one of <alpha_x> or <alpha_y> to 0 and input a value for theta between 0 and 90 degrees.** 
 
 ### For the inference with a temporal filter
 
