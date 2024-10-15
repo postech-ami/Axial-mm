@@ -29,7 +29,7 @@ For each mode, the subpixel test uses different magnitudes of small motions, whi
 ## Evaluation code for traditional (generic) motion magnification methods
 1. Download the generic_evaluation_data.zip file from [this dataset link](https://drive.google.com/drive/folders/1jB2aCfOlQGgAVAzv9lsMDfWlzEIHbYy0) and unzip it.
 
-2. Enter the following command. --is_single_gpu_trained command is optional.
+2. Enter the following command. <--is_single_gpu_trained> command is optional.
     ```
     python script/generic_eval.py --mode subpixel --data_path "Path of generic evaluation data" --checkpoint_path "Path of a pretrained model" --is_single_gpu_trained 
     python script/generic_eval.py --mode noise005 --data_path "Path of generic evaluation data" --checkpoint_path "Path of a pretrained model" --is_single_gpu_trained 
