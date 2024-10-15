@@ -49,6 +49,6 @@ If you find our dataset helps, please consider citing:
       author={Oh, Tae-Hyun and Jaroensri, Ronnachai and Kim, Changil and Elgharib, Mohamed and Durand, Fr{\'e}do and Freeman, William T and Matusik, Wojciech},
       booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
       year={2018}
-    }
+}
 ````
 
