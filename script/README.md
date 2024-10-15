@@ -8,8 +8,15 @@ Therefore, we release the evaluation dataset for quantitative comparison of moti
 
 The structure of the traditional (generic) evaluation dataset is as follows:
 
-    ├── subpixel
-    │   ├── mode00: 0.040 (pixel)
-    │   ⋮
-    │   ├── mode01: 0.050 (pixel)
+    │  Traditional (generic) evaluation dataset
+    │   ├── subpixel test
+    │   │   ├── mode00: 0.040 (pixel)
+    │   │   ├── mode01: 0.050 (pixel)
+    │   │   ⋮
+    │   │   ├── mode14: 1.000 (pixel)
+    │   ├── noise005 test
+    │   │   ├── mode00: 0.010 (level of additive noise)
+    │   │   ├── mode01: 0.016 (level of additive noise)
+    │   │   ⋮
+    │   │   ├── mode20: 100.0 (level of additive noise)
 
