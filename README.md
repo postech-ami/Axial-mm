@@ -48,6 +48,9 @@ pip install pillow tqdm matplotlib scipy tensorboard opencv-python==4.6.0.66
     ```
     python main_dp.py --phase="train" --data_path "Path to the directory where the training data is located"
     ```
+## Quantitative evaluation
+1. Traditional (generic) motion magnification quantitative experiment code
+    Please refer to the README.
 
 ## Inference
 There are various modes for inference in the motion magnification method. Each mode can branch as follows:
