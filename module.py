@@ -200,3 +200,10 @@ class magnet(nn.Module):
 
     return out, texture_a, texture_c, texture_b, texture_amp, shape_bx, shape_by, shape_cx, shape_cy
   
+  def inference(self, image_a, image_b, mag_map, theta_map):
+    texture_a, shape_ax, shape_ay = self.encoder(image_a)
+    texture_b, shape_bx, shape_by = self.encoder(image_b)
+    out_shape_enc_x,out_shape_enc_y  = self.res_manipulator(shape_ax, shape_ay, shape_bx, shape_by, mag_map, theta_map)
+    out = self.decoder(texture_b, out_shape_enc_x, out_shape_enc_y) 
+
+    return out
