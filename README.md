@@ -38,7 +38,7 @@ conda activate dmm_pytorch
 # pytorch installation
 pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 --extra-index-url https://download.pytorch.org/whl/cu111
 pip install numpy==1.21.6
-pip install pillow tqdm matplotlib scipy tensorboard opencv-python==4.6.0.66
+pip install pillow tqdm matplotlib scipy tensorboard pytorch-msssim opencv-python==4.6.0.66
 ```
 
 ## Training
