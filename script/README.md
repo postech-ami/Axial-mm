@@ -35,4 +35,20 @@ For each mode, the subpixel test uses different magnitudes of small motions, whi
     python script/generic_eval.py --mode noise005 --data_path "Path of generic evaluation data" --checkpoint_path "Path of a pretrained model" --is_single_gpu_trained 
     ```
 
+## Citation
+If you find our dataset helps, please consider citing:
+````BibTeX
+@inproceedings{byung2023learning,
+  title = {Learning-based Axial Motion Magnification},
+  author={Kwon Byung-Ki and Oh Hyun-Bin and Kim Jun-Seong and Hyunwoo Ha and Tae-Hyun Oh},
+  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+  year={2024}
+}
+@inproceedings{oh2018learning,
+      title={Learning-based Video Motion Magnification},
+      author={Oh, Tae-Hyun and Jaroensri, Ronnachai and Kim, Changil and Elgharib, Mohamed and Durand, Fr{\'e}do and Freeman, William T and Matusik, Wojciech},
+      booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+      year={2018}
+    }
+````
 
