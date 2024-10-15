@@ -17,7 +17,7 @@ The structure of the traditional (generic) evaluation dataset is as follows:
     │   ├── noise005 test dataset
     │   │   ├── mode00: 0.010 (level of additive noise)
     │   │   ├── mode01: 0.016 (level of additive noise)
-    │   │   ⋮₩
+    │   │   :
     │   │   ├── mode20: 100.0 (level of additive noise)
 
 The subpixel test measures the network's performance for various magnitudes of small motions. This is directly related to the goals of motion magnification methods. 
