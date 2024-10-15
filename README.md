@@ -3,7 +3,7 @@
 This repository contains the official implementation of the ECCV 2024 paper, "Learning-based Axial Video Motion Magnification".
 
 ## Acknowledgement
-I would like to express my gratitude to my advisor, Tae-Hyun Oh, for his outstanding work, which inspired our introduction of user controllability that amplifies motions at specific angles, building upon his paper "Learning-based Motion Magnification."
+I would like to express my gratitude to my advisor, Tae-Hyun Oh, for his outstanding work, which inspired our introduction of user controllability that amplifies motions at specific angles, building upon his paper "[Learning-based Motion Magnification](https://arxiv.org/abs/1804.02684)."
 
 Most of the code is based on the [Author-verified Pytorch Reimplementation of Learning-based Video Motion Magnification (ECCV 2018)](https://github.com/postech-ami/Deep-Motion-Mag-Pytorch).
 
@@ -21,8 +21,8 @@ Most of the code is based on the [Author-verified Pytorch Reimplementation of Le
 
 - [x] Inference code
 - [x] Training code
+- [x] Traditional (generic) motion magnification quantitative experiment code
 - [ ] Axial motion magnification quantitative experiment code
-- [ ] Traditional motion magnification quantitative experiment code
 - [ ] Code for the experiment measuring physical accuracy of motion magnification methods
 
 ## Getting started
