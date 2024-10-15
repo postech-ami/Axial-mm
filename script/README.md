@@ -36,7 +36,7 @@ For each mode, the subpixel test uses different magnitudes of small motions, whi
     ```
 
 🌟 For ease of comparison with motion magnification methods, we provide the quantitative results of the traditional (generic) motion magnification used in the paper (Figure 8 in the main paper). 
-🌟 You can download the "Generic quantitative experiments (Figure 8).xlsx" file from [this link](https://drive.google.com/drive/folders/1TXB5Ztp7CuUwsS887Xpd6z3x6S8NYXd5?usp=drive_link).
+You can download the "Generic quantitative experiments (Figure 8).xlsx" file from [this link](https://drive.google.com/drive/folders/1TXB5Ztp7CuUwsS887Xpd6z3x6S8NYXd5?usp=drive_link).
 
 ## Citation
 If you find our dataset helps, please consider citing:
