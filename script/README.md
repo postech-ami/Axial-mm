@@ -4,7 +4,7 @@ Many motion magnification methods train their models using the training data pro
 
 Therefore, we release the evaluation dataset for quantitative comparison of motion magnification methods, strictly following the methods presented in that paper.
 
-# Evaluation dataset information for traditional (generic) motion magnification methods
+## Evaluation dataset information for traditional (generic) motion magnification methods
 
 The structure of the traditional (generic) evaluation dataset is as follows:
 
@@ -17,9 +17,22 @@ The structure of the traditional (generic) evaluation dataset is as follows:
     │   ├── noise005 test dataset
     │   │   ├── mode00: 0.010 (level of additive noise)
     │   │   ├── mode01: 0.016 (level of additive noise)
-    │   │   ⋮
+    │   │   ⋮₩
     │   │   ├── mode20: 100.0 (level of additive noise)
 
-The subpixel test measures the network's performance for various magnitudes of small motions. This is directly related to the goals of motion magnification methods. The noise005 experiment measures the network's performance under various levels of additive noise when the small motion is 0.05 pixels. This is also an important experiment due to the challenge of distinguishing between small motion and photometric noise.
+The subpixel test measures the network's performance for various magnitudes of small motions. This is directly related to the goals of motion magnification methods. 
+
+The noise005 experiment measures the network's performance under various levels of additive noise when the small motion is 0.05 pixels. This is also an important experiment due to the challenge of distinguishing between small motion and photometric noise.
 
 For each mode, the subpixel test uses different magnitudes of small motions, while the noise005 test employs different levels of additive noise.
+
+## Evaluation code for traditional (generic) motion magnification methods
+1. Download the generic_evaluation_data.zip file from [this dataset link](https://drive.google.com/drive/folders/1jB2aCfOlQGgAVAzv9lsMDfWlzEIHbYy0) and unzip it.
+
+2. Enter the following command. --is_single_gpu_trained command is optional.
+    ```
+    python script/generic_eval.py --mode subpixel --data_path "Path of generic evaluation data" --checkpoint_path "Path of a pretrained model" --is_single_gpu_trained 
+    python script/generic_eval.py --mode noise005 --data_path "Path of generic evaluation data" --checkpoint_path "Path of a pretrained model" --is_single_gpu_trained 
+    ```
+
+
