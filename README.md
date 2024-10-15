@@ -49,8 +49,13 @@ pip install pillow tqdm matplotlib scipy tensorboard opencv-python==4.6.0.66
     python main_dp.py --phase="train" --data_path "Path to the directory where the training data is located"
     ```
 ## Quantitative evaluation
+
+Many motion magnification methods train their models using the training data proposed by ["Oh, Tae-Hyun, et al., "Learning-based video motion magnification"](https://arxiv.org/abs/1804.02684), ECCV, 2018", but the evaluation data for quantitative assessment presented in that paper has not been made publicly available.
+
+Therefore, we release the evaluation dataset for quantitative comparison of motion magnification methods, strictly following the methods presented in that paper.
+
 1. Traditional (generic) motion magnification quantitative experiment code
-    Please refer to the README.
+    Please refer to [the README](https://github.com/postech-ami/Axial-mm/tree/main/script).
 
 ## Inference
 There are various modes for inference in the motion magnification method. Each mode can branch as follows:
