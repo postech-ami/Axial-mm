@@ -54,7 +54,8 @@ Many motion magnification methods train their models using the training data pro
 
 Therefore, we release the evaluation dataset for quantitative comparison of motion magnification methods, strictly following the methods presented in that paper.
 
-1. Traditional (generic) motion magnification quantitative experiment code
+1. Traditional (generic) motion magnification quantitative experiment code:
+
     Please refer to [the README](https://github.com/postech-ami/Axial-mm/tree/main/script).
 
 ## Inference
