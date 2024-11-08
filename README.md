@@ -50,7 +50,7 @@ pip install pillow tqdm matplotlib scipy tensorboard pytorch-msssim opencv-pytho
     ```
 ## Quantitative evaluation
 
-Many motion magnification methods train their models using the training data proposed by ["Oh, Tae-Hyun, et al., "Learning-based video motion magnification"](https://arxiv.org/abs/1804.02684), ECCV, 2018", but the evaluation data for quantitative assessment presented in that paper has not been made publicly available.
+Many motion magnification methods train their models using the training data proposed by ["Oh, Tae-Hyun, et al., "Learning-based video motion magnification", ECCV 2018"](https://arxiv.org/abs/1804.02684), but the evaluation data for quantitative assessment presented in that paper has not been made publicly available.
 
 Therefore, we release the evaluation dataset for quantitative comparison of motion magnification methods, strictly following the methods presented in that paper.
 This evaluation dataset and code can be easily applied to different motion magnification methods.
