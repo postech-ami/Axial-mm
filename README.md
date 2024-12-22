@@ -60,6 +60,8 @@ This evaluation dataset and code can be easily applied to different motion magni
     Please refer to [the README](https://github.com/postech-ami/Axial-mm/tree/main/script).
 
 ## Inference
+To use the pretrained model employed in our paper, download the checkpoint from [here](https://drive.google.com/drive/folders/1E2DXLLE6d8sYsIid3hgCj-PHwATX_Ue-?usp=sharing).
+
 There are various modes for inference in the motion magnification method. Each mode can branch as follows:
 
     ├── Inference
