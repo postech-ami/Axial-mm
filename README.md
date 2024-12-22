@@ -86,7 +86,7 @@ With a temporal filter, amplification is applied by utilizing the temporal filte
 
 2) Then, run the static mode for x-axis magnification. Add "--velocity_mag" for dynamic mode.
 
-        python main_dp.py --checkpoint_path "./model/axial_mm.tar" --phase="play" --vid_dir="Path of the video frames" --alpha_x 10 --alpha_y 0 --theta 0 --is_single_gpu_trained   
+        python main_dp.py --checkpoint_path "./model/Epoch50.tar" --phase="play" --vid_dir="Path of the video frames" --alpha_x 10 --alpha_y 0 --theta 0 --is_single_gpu_trained   
 
 🌟 **The amplification levels for the x and y axes can be adjusted by setting theta to 0 and modifying <alpha_x> and <alpha_y>. If you want to amplify only one axis, set either <alpha_x> or <alpha_y> to 0** 
 
@@ -96,8 +96,8 @@ With a temporal filter, amplification is applied by utilizing the temporal filte
 
 1) And then run the temporal filter mode with differenceOfIIR and FIR filters for y-axis magnification. This code supports three types of <filter_type>, {"differenceOfIIR", "butter", and "fir"}.
       
-       python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/axial_mm.tar"  --vid_dir="Path of the video frames" --alpha_x 0 --alpha_y 10 --theta 0 --fs 120 --freq 15 25 --filter_type fir 
-       python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/axial_mm.tar"  --vid_dir="Path of the video frames" --alpha_x 0 --alpha_y 10 --theta 0 --fs 120 --freq 0.04 0.4 --filter_type differenceOfIIR 
+       python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/Epoch50.tar"  --vid_dir="Path of the video frames" --alpha_x 0 --alpha_y 10 --theta 0 --fs 120 --freq 15 25 --filter_type fir 
+       python main_dp.py --phase="play_temporal" --is_single_gpu_trained --checkpoint_path "./model/Epoch50.tar"  --vid_dir="Path of the video frames" --alpha_x 0 --alpha_y 10 --theta 0 --fs 120 --freq 0.04 0.4 --filter_type differenceOfIIR 
 
 🌟 **When applying a temporal filter, it is crucial to accurately specify the frame rate <fs> and the frequency band <freq> to ensure optimal performance and effectiveness.** 
 
